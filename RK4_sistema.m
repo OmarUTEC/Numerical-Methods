@@ -1,0 +1,18 @@
+function[z]=RK4_sistemas(f,g,a,b,x0,y0,h)
+%f=@(t,x,y)(t+2*x+4*y)g=@(t,x,y)(exp(t)-x+6*y)...
+    x0=-1;y0=6;h=0.5;a=0;b=1;
+    t=[a:h:b]';n=(b-a)/h;z=[];
+    fork=1:n+1
+    k1x=f(t(k),x0,y0);k1y=g(t(k),x0,y0);
+    k2x=f(t(k)+h/2,x0+h*k1x/2,y0+h*k1y/2);
+    k2y=g(t(k)+h/2,x0+h*k1x/2,y0+h*k1y/2);
+    k3x=f(t(k)+h/2,x0+h*k2x/2,y0+h*k2y/2);
+    k3y=g(t(k)+h/2,x0+h*k2x/2,y0+h*k2y/2);
+    k4x=f(t(k)+h,x0+h*k3x,y0+h*k3y);
+    k4y=g(t(k)+h,x0+h*k3x,y0+h*k3y);
+    x1=x0+(h/6)*(k1x+2*k2x+2*k3x+k4x);
+    y1=y0+(h/6)*(k1y+2*k2y+2*k3y+k4y);
+    z=[z;t(k)x0y0];
+    x0=x1;y0=y1;
+end
+end
