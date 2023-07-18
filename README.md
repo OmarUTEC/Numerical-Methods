@@ -41,7 +41,7 @@ Cada carpeta dentro de este repositorio contiene el código fuente y ejemplos de
 1. Clona este repositorio en tu máquina local utilizando el siguiente comando:
 
    ```shell
-   git clone https://github.com/OmarUTEC/metodos-numericos.git
+   git clone github.com/OmarUTEC/Numerical-Methods.git
    ```
 2. Navega a la carpeta del método numérico que deseas utilizar. Por ejemplo, para el método de Simpson Simple:
 
