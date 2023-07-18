@@ -41,7 +41,7 @@ Cada carpeta dentro de este repositorio contiene el código fuente y ejemplos de
 1. Clona este repositorio en tu máquina local utilizando el siguiente comando:
 
    ```shell
-   git clone https://github.com/tu_usuario/metodos-numericos.git
+   git clone https://github.com/OmarUTEC/metodos-numericos.git
    ```
 2. Navega a la carpeta del método numérico que deseas utilizar. Por ejemplo, para el método de Simpson Simple:
 
@@ -51,7 +51,7 @@ Cada carpeta dentro de este repositorio contiene el código fuente y ejemplos de
 
 # Contribuciones
 
-Si deseas contribuir a este repositorio, eres bienvenido(a) a hacerlo. Si encuentras algún error, tienes sugerencias de mejora o deseas agregar nuevos métodos numéricos, por favor, envía un pull request y estaremos encantados de revisarlo.
+Si deseas contribuir a este repositorio, eres bienvenido(a) a hacerlo.
 
 
 # ¡Diviértete explorando y aplicando estos métodos numéricos en tus propios proyectos!
